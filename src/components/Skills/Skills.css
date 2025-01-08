@@ -1,0 +1,54 @@
+/* Skills Section */
+.skills {
+  padding: 3rem;
+  background-color: #e0e0e0; /* Slightly darker gray for the inner section */
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for contrast */
+}
+
+/* Skills Header Outside */
+.skills-header { 
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: 700; /* Bolder text */
+  color: #333; /* Dark text */
+  margin-bottom: 1rem; /* Add spacing below the title */
+  text-align: center; /* Center align */
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Dynamic grid based on screen size */
+  gap: 1.5rem; /* Spacing between icons */
+  justify-items: center;
+}
+
+/* Skill Card */
+.skill-card {
+  width: 60px; /* Uniform square size */
+  height: 60px; /* Uniform square size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skill Icon */
+.skill-icon {
+  font-size: 3rem; /* Larger icon size */
+  color: #6AB187; /* Theme color */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.skill-card:hover .skill-icon {
+  transform: scale(1.2); /* Slightly enlarge icon on hover */
+  color: #333; /* Darker color on hover */
+}
+
+.skills-container{
+  scroll-margin-top: 120px;
+}

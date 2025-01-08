@@ -1,0 +1,101 @@
+/* Contact Section */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8; /* Slightly lighter gray for distinction */
+    border-radius: 12px; /* Rounded edges for a unique touch */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 4rem auto;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333; /* Darker for emphasis */
+  }
+  
+  /* Contact Container */
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #6ab187; /* Theme color for focus state */
+  }
+  
+  .contact-form button {
+    background-color: #6ab187;
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4a8a66;
+    transform: translateY(-2px); /* Subtle pop-up effect */
+  }
+  
+  /* Contact Image */
+  .contact-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-image img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+  
+  .contact-image img:hover {
+    opacity: 1; /* Slight fade-in effect on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-image img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
